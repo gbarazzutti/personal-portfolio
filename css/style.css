@@ -311,7 +311,8 @@ textarea {
   .projects__row-img {
     width: 100%;
     display: block;
-    object-fit: cover; }
+    object-fit: cover;
+    border: 1.5px solid rgba(var(--main-color), 0.8) }
   .projects__row-content {
     padding: 2rem 0;
     display: flex;
@@ -390,7 +391,8 @@ textarea {
   margin-bottom: 6rem; }
 
 .project-details__showcase-img {
-  width: 100%; }
+  width: 100%; 
+  border: 1.5px solid rgba(var(--main-color), 0.8);}
 
 .project-details__content-main {
   width: 100%;
