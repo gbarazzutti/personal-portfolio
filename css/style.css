@@ -271,7 +271,8 @@ textarea {
     @media only screen and (max-width: 56.25em) {
       .about__content {
         grid-template-columns: 1fr;
-        grid-gap: 8rem; } }
+        grid-gap: 8rem; 
+        text-align: center;} }
     .about__content-title {
       font-weight: 700;
       font-size: 2.8rem;
@@ -340,7 +341,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8)), url(https://gbarazzutti.github.io/personal-portfolio/assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center; 
 }
@@ -348,7 +349,7 @@ textarea {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right,  rgba(var(--main-color), 0.8),  rgba(var(--main-color), 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right,  rgba(var(--main-color), 0.8),  rgba(var(--main-color), 0.8)), url(https://gbarazzutti.github.io/personal-portfolio/assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -569,16 +570,19 @@ textarea {
     order: 2;}
     @media only screen and (max-width: 56.25em) {
       .main-footer__row-1 {
-        margin-bottom: 5rem; } }
+        margin-bottom: 5rem;} }
   .main-footer__row-2 {
     width: 40%;
     order: 1;
-    max-width: 50rem; }
+    max-width: 50rem; 
+    text-align: center;}
     @media only screen and (max-width: 56.25em) {
       .main-footer__row-2 {
         width: 100%;
-        text-align: center; 
-        } }
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto; 
+        }}
   .main-footer__short-desc {
     margin-top: 2rem;
     color: #eee;
@@ -586,12 +590,10 @@ textarea {
     line-height: 1.7; }
   .main-footer__social-cont {
     margin-top: 2rem;
-    display: flex;
-    justify-content: space-around; 
   }
     
   .main-footer__icon {
-    margin-right: 0px;
+    margin: 5px;
     width: 2.5rem; }
     .main-footer__icon--mr-none {
       margin-right: 0; }
@@ -625,7 +627,11 @@ textarea {
 }
 .skills {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;} 
+  @media only screen and (max-width: 56.25em) {
+    .skills {
+      justify-content: center;
+     } }
   .skills__skill {
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
