@@ -200,7 +200,7 @@ textarea {
 /* qwe */
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8) ), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8) ), url(https://gbarazzutti.github.io/personal-portfolio/assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -576,7 +576,9 @@ textarea {
     max-width: 50rem; }
     @media only screen and (max-width: 56.25em) {
       .main-footer__row-2 {
-        width: 100%; } }
+        width: 100%;
+        text-align: center; 
+        } }
   .main-footer__short-desc {
     margin-top: 2rem;
     color: #eee;
@@ -610,6 +612,7 @@ textarea {
 .main-footer__row-1{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .email{
